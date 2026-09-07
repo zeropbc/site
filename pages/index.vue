@@ -8,8 +8,8 @@ import SquircleButton from '~/components/SquircleButton.vue'
 
     <main>
       <section class="hero">
-        <h1>Zero PBC</h1>
-        <p class="subtitle">An independent Public Benefit Organization. Linux-first. Open source. No hierarchy.</p>
+        <h1>Open By Default</h1>
+        <p class="subtitle">An independent Public Benefit Organization building open-source Linux-first tools for the terminal, with a focus on privacy, security, and local-first computing.</p>
         <div class="ctas">
           <a href="/silo" class="cta">Explore Silo</a>
           <a href="#projects" class="cta-secondary">Our work</a>
