@@ -88,6 +88,21 @@ onUnmounted(() => {
   padding: 0.55rem;
 }
 
+.squircle-button.collapsed:hover {
+  padding: 0.6rem 1.1rem;
+}
+
+.squircle-button.collapsed:hover .inner {
+  gap: 0.65rem;
+}
+
+.squircle-button.collapsed:hover .label.hidden {
+  display: inline-block;
+  opacity: 1;
+  max-width: 200px;
+  margin-left: 0;
+}
+
 .squircle-button.collapsed .inner {
   gap: 0;
 }

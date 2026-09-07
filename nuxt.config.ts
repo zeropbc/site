@@ -9,7 +9,9 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Independent PBO building open-source Linux-first technology.' },
         { name: 'theme-color', content: '#0a0a0a' }
       ],
-      link: [],
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/assets/favicon.png' }
+      ],
     },
   },
 })
