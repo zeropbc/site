@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   css: ['~/assets/css/main.scss'],
   modules: [],
-  nitro: { preset: 'cloudflare-pages' },
+  nitro: { preset: 'cloudflare_module' },
   compatibilityDate: '2024-09',
   app: {
     head: {
