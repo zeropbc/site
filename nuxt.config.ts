@@ -4,9 +4,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-09',
   app: {
     head: {
-      title: 'Zero Labs — Build what should exist',
+      title: 'Zero',
       meta: [
-        { name: 'description', content: 'Independent PBO building open-source Linux-first technology.' },
+        { name: 'description', content: 'Freeing the planet.' },
         { name: 'theme-color', content: '#0a0a0a' }
       ],
       link: [
