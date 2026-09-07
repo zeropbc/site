@@ -11,7 +11,7 @@ import SquircleButton from '~/components/SquircleButton.vue'
         <h1>Open By Default</h1>
         <p class="subtitle">An independent Public Benefit Organization building open-source Linux-first tools for the terminal, with a focus on privacy, security, and local-first computing.</p>
         <div class="ctas">
-          <a href="/silo" class="cta">Explore Silo</a>
+          <a href="/helios" class="cta">Explore Helios</a>
           <a href="#projects" class="cta-secondary">Our work</a>
         </div>
       </section>
@@ -19,13 +19,9 @@ import SquircleButton from '~/components/SquircleButton.vue'
       <section id="projects" class="projects-preview">
         <h2>Projects</h2>
         <div class="cards">
-          <a href="/silo" class="card">
-            <h3>Silo <span class="tag">v0.9</span></h3>
-            <p>Open-source CLI/TUI agent for the terminal — model-agnostic, local-first, Linux-native.</p>
-          </a>
-          <a href="/helios" class="card placeholder">
-            <h3>Helios</h3>
-            <p>Lab-scale astronomical visualization engine. In design phase.</p>
+          <a href="/helios" class="card">
+            <h3>Helios <span class="tag">v0.1</span></h3>
+            <p>Open-source astronomical visualization engine — serious scientific visualization for massive real datasets.</p>
           </a>
         </div>
       </section>
