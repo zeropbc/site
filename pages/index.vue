@@ -3,7 +3,7 @@
     <header class="site-header">
       <div class="header-row">
         <a href="/" class="brand" aria-label="Zero Labs">
-          <span class="brand-name">Zero Labs</span>
+          <span class="brand-wordmark"><img src="~/assets/wordmark.svg" alt="Zero Labs" /></span>
         </a>
         <nav class="nav" aria-label="Main Navigation">
           <a href="#projects">Projects</a>
@@ -16,11 +16,8 @@
 
     <main id="main">
       <section class="hero">
-        <h1>Build what<br />should exist.</h1>
+        <h1>Reaching<br />hyperspace.</h1>
         <p class="hero-tag">Open By Default · Public Benefit Organization</p>
-        <p class="subtitle">
-          An independent PBO building open-source, Linux-first technology — grounded in privacy, security, and local-first computing.
-        </p>
       </section>
 
       <section class="featured" aria-label="Featured work">
@@ -97,7 +94,7 @@
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 50;
-  height: 4rem;
+  height: 3.5rem;
   display: flex;
   align-items: center;
   background: var(--bg);
@@ -107,15 +104,17 @@
   width: 100%;
   max-width: 68rem;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.25rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 1.5rem;
 }
-.brand { display: flex; align-items: center; gap: 0.6rem; color: var(--fg); }
-.brand-name { font-family: var(--font-sans); font-weight: 700; font-size: 1rem; letter-spacing: -0.01em; }
-.nav { display: flex; gap: 1.5rem; }
-.nav a { color: var(--fg-muted); font-size: 0.95rem; transition: color 0.15s; }
+.brand { display: flex; align-items: center; color: var(--fg); }
+.brand-wordmark { display: inline-flex; }
+.brand-wordmark img { height: 1.15rem; width: auto; display: block; }
+.nav { display: flex; align-items: center; gap: 1.25rem; }
+.nav a { color: var(--fg-muted); font-size: 0.9rem; transition: color 0.15s; }
 .nav a:hover { color: var(--fg); }
 
 main { flex: 1; }
