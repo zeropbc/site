@@ -21,8 +21,8 @@ import SquircleButton from '~/components/SquircleButton.vue'
 <style scoped>
 .project { min-height: 100vh; padding: 6rem 2rem 3rem; max-width: 72ch; }
 h1 { font-size: clamp(3rem, 7vw, 5rem); line-height: 1; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-.status { font-family: var(--font-mono); font-size: 0.9rem; color: var(--fg-muted); margin-bottom: 2rem; }
+.status { font-family: var(--font-sans); font-size: 0.9rem; color: var(--fg-muted); margin-bottom: 2rem; }
 .description { color: #ccc; line-height: 1.7; }
-.placeholder-note { font-family: var(--font-mono); font-size: 0.85rem; color: #666; margin-top: 2rem; }
-.back { display: inline-block; margin-top: 3rem; font-family: var(--font-mono); font-size: 0.85rem; border-bottom: 1px solid #333; padding-bottom: 0.15rem; }
+.placeholder-note { font-family: var(--font-sans); font-size: 0.85rem; color: #666; margin-top: 2rem; }
+.back { display: inline-block; margin-top: 3rem; font-family: var(--font-sans); font-size: 0.85rem; border-bottom: 1px solid #333; padding-bottom: 0.15rem; }
 </style>

@@ -39,18 +39,18 @@ import SquircleButton from '~/components/SquircleButton.vue'
 .hero h1 { font-size: clamp(3rem, 8vw, 6rem); line-height: 1.05; letter-spacing: -0.03em; font-family: var(--font-sans); margin-bottom: 1.5rem; }
 .subtitle { font-size: 1.1rem; color: var(--fg-muted); max-width: 42ch; }
 .ctas { margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap; }
-.cta { background: var(--fg); color: var(--bg); padding: 0.85rem 1.5rem; font-family: var(--font-mono); font-size: 0.95rem; }
-.cta-secondary { border: 1px solid var(--fg-muted); color: var(--fg); padding: 0.85rem 1.5rem; font-family: var(--font-mono); font-size: 0.95rem; }
+.cta { background: var(--fg); color: var(--bg); padding: 0.85rem 1.5rem; font-family: var(--font-sans); font-size: 0.95rem; }
+.cta-secondary { border: 1px solid var(--fg-muted); color: var(--fg); padding: 0.85rem 1.5rem; font-family: var(--font-sans); font-size: 0.95rem; }
 
 .projects-preview { margin-top: 8rem; }
-.projects-preview h2 { font-size: 1.25rem; font-family: var(--font-mono); margin-bottom: 2rem; }
+.projects-preview h2 { font-size: 1.25rem; font-family: var(--font-sans); margin-bottom: 2rem; }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr)); gap: 1.5rem; }
 .card { border: 1px solid #222; padding: 1.75rem; display: block; transition: border-color 0.2s; }
 .card:hover { border-color: #555; }
 .card h3 { font-family: var(--font-sans); font-size: 1.1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
-.tag { font-family: var(--font-mono); font-size: 0.7rem; border: 1px solid #333; padding: 0.15rem 0.4rem; }
+.tag { font-family: var(--font-sans); font-size: 0.7rem; border: 1px solid #333; padding: 0.15rem 0.4rem; }
 .card p { color: var(--fg-muted); font-size: 0.95rem; }
 .placeholder { opacity: 0.6; }
 
-footer { margin-top: auto; padding-top: 6rem; font-family: var(--font-mono); font-size: 0.8rem; color: var(--fg-muted); }
+footer { margin-top: auto; padding-top: 6rem; font-family: var(--font-sans); font-size: 0.8rem; color: var(--fg-muted); }
 </style>
