@@ -11,7 +11,7 @@
   position: fixed;
   top: 0; left: 0;
   width: 100vw; height: 100vh;
-  background: linear-gradient(160deg, #0a0a0a 0%, #141414 40%, #0a0a0a 100%);
+  background: var(--bg);
   filter: blur(8px);
   -webkit-filter: blur(8px);
   z-index: -1;
