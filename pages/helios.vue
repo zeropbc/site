@@ -6,7 +6,6 @@
     <header class="site-header">
       <div class="header-row">
         <a href="/" class="brand" aria-label="Zero Labs">
-          <span class="brand-mark">z0</span>
           <span class="brand-name">Zero Labs</span>
         </a>
         <nav class="nav" aria-label="Main Navigation">
@@ -52,14 +51,7 @@
   justify-content: space-between;
 }
 .brand { display: flex; align-items: center; gap: 0.6rem; color: var(--fg); }
-.brand-mark {
-  font-weight: 700;
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 1.75rem; height: 1.75rem;
-  border: 1.5px solid currentColor;
-  border-radius: 0.55rem;
-}
-.brand-name { font-size: 1rem; font-weight: 600; letter-spacing: -0.01em; }
+.brand-name { font-family: var(--font-sans); font-weight: 700; font-size: 1rem; letter-spacing: -0.01em; }
 .nav { display: flex; gap: 1.5rem; }
 .nav a { color: var(--fg-muted); font-size: 0.95rem; transition: color 0.15s; }
 .nav a:hover { color: var(--fg); }
