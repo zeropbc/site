@@ -111,7 +111,7 @@
   gap: 1.5rem;
 }
 .brand { display: flex; align-items: center; color: var(--fg); }
-.brand-wordmark { font-family: var(--font-sans); font-weight: 700; font-size: 1.25rem; line-height: 1; letter-spacing: -0.02em; }
+.brand-wordmark { display: block; font-family: var(--font-sans); font-weight: 700; font-size: 2rem; line-height: 1; letter-spacing: -0.02em; }
 .nav { display: flex; align-items: center; gap: 1.25rem; }
 .nav a { color: var(--fg-muted); font-size: 0.9rem; transition: color 0.15s; }
 .nav a:hover { color: var(--fg); }
