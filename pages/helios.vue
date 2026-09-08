@@ -35,7 +35,7 @@
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 50;
-  height: 3rem;
+  height: 3.5rem;
   display: flex;
   align-items: center;
   background: var(--bg);
