@@ -121,7 +121,7 @@ main { flex: 1; }
 
 .hero {
   min-height: 90vh;
-  display: flex; flex-direction: column; justify-content: center;
+  display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
   max-width: 68rem; margin: 0 auto; padding: 8rem 2rem 4rem;
 }
 .hero h1 {

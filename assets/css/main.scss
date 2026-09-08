@@ -77,6 +77,8 @@ body {
 
 a { color: inherit; text-decoration: none; }
 
+::selection { background: #ffffff; color: #000000; }
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg: #ffffff;
@@ -85,4 +87,6 @@ a { color: inherit; text-decoration: none; }
     --accent: #333333;
     --border: #e5e5e5;
   }
+
+  ::selection { background: #000000; color: #ffffff; }
 }
