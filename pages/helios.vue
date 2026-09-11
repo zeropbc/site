@@ -3,18 +3,7 @@
 
 <template>
   <div class="project helios">
-    <header class="site-header">
-      <div class="header-row">
-        <a href="/" class="brand" aria-label="Zero Labs">
-          <span class="brand-wordmark">Zero</span>
-        </a>
-        <nav class="nav" aria-label="Main Navigation">
-          <a href="/#projects">Projects</a>
-          <a href="/#news">News</a>
-          <a href="/helios">Helios</a>
-        </nav>
-      </div>
-    </header>
+    <SiteHeader />
 
     <main>
       <h1>Helios</h1>
@@ -30,32 +19,6 @@
 
 <style scoped>
 .project { min-height: 100vh; display: flex; flex-direction: column; }
-
-.site-header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 50;
-  height: 3.5rem;
-  display: flex;
-  align-items: center;
-  background: var(--bg);
-  border-bottom: 1px solid var(--border);
-}
-.header-row {
-  width: 100%;
-  max-width: 68rem;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 2.5rem;
-}
-.brand { display: flex; align-items: center; color: var(--fg); }
-.brand-wordmark { display: block; font-family: var(--font-sans); font-weight: 700; font-size: 1rem; line-height: 1; letter-spacing: -0.02em; }
-.nav { display: flex; align-items: center; gap: 1.5rem; }
-.nav a { color: var(--fg-muted); font-size: 0.9rem; transition: color 0.15s; }
-.nav a:hover { color: var(--fg); }
 
 main {
   flex: 1;
