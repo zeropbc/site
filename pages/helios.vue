@@ -7,11 +7,18 @@
 
     <main>
       <h1>Helios</h1>
-      <p class="status">In design phase.</p>
+      <p class="status">In development.</p>
       <p class="description">
-        A serious scientific visualization tool — not a game. Fully data-driven architecture: no hardcoded object types, hierarchical spatial resolution, designed for massive astronomical datasets on ordinary hardware.
+        A serious scientific visualization tool — not a game. A browser-based solar-system visualizer built on real-time J2000 orbital mechanics, physical body dimensions, and data-driven astronomy records. Fully data-driven architecture: no hardcoded object types, hierarchical spatial resolution, designed for massive astronomical datasets on ordinary hardware.
       </p>
-      <p class="placeholder-note">Details coming. No timeline commitments.</p>
+      <ul class="features">
+        <li>Live date-based Kepler propagation from J2000 ecliptic elements</li>
+        <li>Three-dimensional orbital planes with real inclinations and ascending nodes</li>
+        <li>Data-driven records for planets, dwarf planets, centaurs, moons, and satellites</li>
+        <li>Instanced rendering for very large minor-body catalogs</li>
+        <li>No-build static deployment — a plain web server is enough to run it</li>
+      </ul>
+      <p class="placeholder-note">Actively in development. No timeline commitments.</p>
       <a href="/" class="back">← Back to Zero Labs</a>
     </main>
   </div>
@@ -28,6 +35,26 @@ main {
 h1 { font-size: clamp(3rem, 7vw, 5rem); line-height: 1; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
 .status { font-family: var(--font-sans); font-size: 0.9rem; color: var(--fg-muted); margin-bottom: 2rem; }
 .description { color: var(--fg-muted); line-height: 1.7; }
+.features {
+  list-style: none;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.features li {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+  padding-left: 1.15rem;
+  position: relative;
+}
+.features li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--border);
+}
 .placeholder-note { font-family: var(--font-sans); font-size: 0.85rem; color: var(--fg-muted); margin-top: 2rem; }
 .back { display: inline-block; margin-top: 3rem; font-family: var(--font-sans); font-size: 0.85rem; border-bottom: 1px solid var(--fg-muted); padding-bottom: 0.15rem; }
 </style>

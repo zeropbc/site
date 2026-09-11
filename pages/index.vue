@@ -16,7 +16,7 @@
           <div class="featured-body">
             <p class="eyebrow">Projects</p>
             <h2>Helios</h2>
-            <p class="read-time">In design phase.</p>
+            <p class="read-time">In development.</p>
           </div>
         </a>
       </section>
@@ -32,7 +32,7 @@
             <div class="card-body">
               <p class="eyebrow">Projects</p>
               <h3>Helios</h3>
-              <p class="read-time">In design phase.</p>
+              <p class="read-time">In development.</p>
             </div>
           </a>
         </div>
@@ -44,6 +44,12 @@
           <a href="#news" class="view-all">View all</a>
         </div>
         <ul class="news-list">
+          <li>
+            <a href="/helios">
+              <span class="news-title">Helios enters development</span>
+              <span class="news-meta">Projects · Sep 2026</span>
+            </a>
+          </li>
           <li>
             <a href="/helios">
               <span class="news-title">Helios enters design phase</span>
