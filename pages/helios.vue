@@ -19,6 +19,7 @@
         <li>No-build static deployment — a plain web server is enough to run it</li>
       </ul>
       <p class="placeholder-note">Actively in development. No timeline commitments.</p>
+      <p><a href="https://zeropbc.github.io/Helios/" class="launch" target="_blank" rel="noopener">Launch Helios Engine →</a></p>
       <a href="/" class="back">← Back to Zero Labs</a>
     </main>
   </div>
@@ -56,5 +57,6 @@ h1 { font-size: clamp(3rem, 7vw, 5rem); line-height: 1; letter-spacing: -0.03em;
   color: var(--border);
 }
 .placeholder-note { font-family: var(--font-sans); font-size: 0.85rem; color: var(--fg-muted); margin-top: 2rem; }
+.launch { display: inline-block; margin-top: 1.5rem; font-family: var(--font-sans); font-size: 0.95rem; color: var(--fg); border: 1px solid var(--fg-muted); border-radius: 0.5rem; padding: 0.5rem 1rem; }
 .back { display: inline-block; margin-top: 3rem; font-family: var(--font-sans); font-size: 0.85rem; border-bottom: 1px solid var(--fg-muted); padding-bottom: 0.15rem; }
 </style>
